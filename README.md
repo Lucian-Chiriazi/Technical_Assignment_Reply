@@ -36,11 +36,11 @@ This will run Jest, testing both users and payments with Supertest.
 ## Validation Rules
 
 ### User Registration
-`username`         - Alphanumeric only                           
-`password`         - At least 8 chars, one number, one uppercase 
+`username`         - Alphanumeric only                                 
+`password`         - At least 8 chars, one number, one uppercase    
 `email`            - Must be a valid email format                
-`dob`              - Must be in `YYYY-MM-DD` format, age ≥ 18    
-`creditCardNumber` - Optional, but must be 16 digits if provided 
+`dob`              - Must be in `YYYY-MM-DD` format, age ≥ 18       
+`creditCardNumber` - Optional, but must be 16 digits if provided       
 
 ### Payments
 `creditCardNumber` - Must be 16 digits                         
